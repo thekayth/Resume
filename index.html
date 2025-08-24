@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title id="site-title">Resume</title>
+  <meta name="description" content="เรซูเม่แบบเว็บไซต์ธีมมืด พร้อมใช้งานและพร้อมดีพลอยบน Vercel" />
+  <meta property="og:title" content="เรซูเม่ • ชื่อ-นามสกุล" />
+  <meta property="og:description" content="พอร์ตโฟลิโอ/เรซูเม่ธีมมืด — หน้าแรก, ทักษะโปรแกรม, ประสบการณ์, กิจกรรม, CERTIFICATE, ช่องทางการติดต่อ" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta name="theme-color" content="#0b0f17" />
+
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#home">ข้ามไปยังเนื้อหา</a>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">
+        <span id="brand-initials">ZZ</span>
+        <span id="brand-name">ชื่อ-นามสกุล</span>
+      </div>
+      <button class="nav-toggle" aria-label="เปิดเมนู" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" data-section="home" class="active">หน้าแรก</a></li>
+        <li><a href="#skills" data-section="skills">ทักษะโปรแกรม</a></li>
+        <li><a href="#experience" data-section="experience">ประสบการณ์</a></li>
+        <li><a href="#activities" data-section="activities">กิจกรรม</a></li>
+        <li><a href="#certificates" data-section="certificates">CERTIFICATE</a></li>
+        <li><a href="#contact" data-section="contact">ช่องทางการติดต่อ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="section container">
+      <div class="hero">
+        <img id="avatar" class="avatar" src="assets/avatar.svg" alt="รูปโปรไฟล์" />
+        <div>
+          <h1 id="full-name" class="title">ชื่อ-นามสกุล</h1>
+          <p id="headline" class="subtitle">ตำแหน่ง • ความถนัด</p>
+          <p id="summary" class="summary">
+            สรุปสั้นๆ เกี่ยวกับตัวคุณ ความสนใจ ความถนัด และสิ่งที่กำลังมองหา
+          </p>
+          <div class="cta">
+            <a id="btn-contact" href="#contact" class="btn primary">ติดต่อฉัน</a>
+            <a id="btn-download" href="#" class="btn ghost" target="_blank" rel="noopener">ดาวน์โหลดเรซูเม่ (PDF)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <h2 class="section-title">ทักษะโปรแกรม</h2>
+      <div id="skills-container" class="skills"></div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section container">
+      <h2 class="section-title">ประสบการณ์</h2>
+      <div id="experience-timeline" class="timeline"></div>
+    </section>
+
+    <!-- ACTIVITIES -->
+    <section id="activities" class="section container">
+      <h2 class="section-title">กิจกรรม</h2>
+      <div id="activities-grid" class="cards"></div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates" class="section container">
+      <h2 class="section-title">CERTIFICATE</h2>
+      <div id="certificates-grid" class="cards"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <h2 class="section-title">ช่องทางการติดต่อ</h2>
+      <ul id="contact-list" class="contact-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> <span id="footer-name">ชื่อ-นามสกุล</span> • สร้างด้วย ♥ • อัปเดตล่าสุด <span id="last-updated"></span></p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
