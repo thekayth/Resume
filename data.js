@@ -2,7 +2,7 @@ window.__RESUME_DATA__ = {
   basics: {
     initials: "CV",
     name: "กิติภพ ทองคำ",
-    headline: "Student in Nakhon Sawan Rajabhat University",
+    headline: "Vibe Code | Student in Nakhon Sawan Rajabhat University",
     summary: "นักศึกษาชั้นปีที่4 สาขาเทคโนโลยีสารสนเทศ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฎนครสวรรค์",
     avatar: "assets/avatar.svg",
     pdf: "#",
