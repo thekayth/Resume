@@ -10,7 +10,7 @@ window.__RESUME_DATA__ = {
       { type: "Email", value: "kitiphob.t@nsru.ac.th", url: "mailto:kitiphob.t@nsru.ac.th" },
       { type: "โทร", value: "+66-83-479-5467", url: "tel:+66834795467" },
       { type: "GitHub", value: "github.com/thekayth", url: "https://github.com/thekayth" },
-      { type: "Website", value: "example.com", url: "https://example.com" }
+      { type: "Website", value: "resume-mu-steel.vercel.app", url: "https://resume-mu-steel.vercel.app/" }
     ]
   },
   skills: [
@@ -21,7 +21,10 @@ window.__RESUME_DATA__ = {
     { name: "Node.js", levelPct: 35 },
     { name: "Laravel", levelPct: 40 },
     { name: "Git", levelPct: 30 },
-    { name: "Python", levelPct: 50 }
+    { name: "Python", levelPct: 50 },
+    { name: "PhotoShop", levelPct: 60 },
+    { name: "Illustrator", levelPct: 50 },
+    { name: "SonyVegas", levelPct: 50 }
   ],
   experience: [
     {

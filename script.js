@@ -4,7 +4,7 @@
   // Brand & Hero
   document.getElementById("brand-initials").textContent = data.basics.initials || "ZZ";
   document.getElementById("brand-name").textContent = data.basics.name || "ชื่อ-นามสกุล";
-  document.getElementById("site-title").textContent = `เรซูเม่ • ${data.basics.name || "ชื่อ-นามสกุล"}`;
+  document.getElementById("site-title").textContent = data.basics.name || "ชื่อ-นามสกุล";
   document.getElementById("full-name").textContent = data.basics.name || "ชื่อ-นามสกุล";
   document.getElementById("footer-name").textContent = data.basics.name || "ชื่อ-นามสกุล";
   document.getElementById("headline").textContent = data.basics.headline || "";
