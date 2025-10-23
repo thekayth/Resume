@@ -66,9 +66,9 @@ body {
 /* Hero */
 .hero { display:grid; grid-template-columns: 120px 1fr; gap:24px; align-items:center; }
 .avatar {
-  width:120px; height:120px; border-radius:24px; border:1px solid var(--border);
+  width:120px; height:120px; border-radius:20px; border:1px solid var(--border);
   background: linear-gradient(135deg, #1f2937, #0b0f17);
-  padding: 12px;
+  /* padding: 5px; */
 }
 .title { font-size: clamp(1.8rem, 1.6rem + 1vw, 2.6rem); margin: 0 0 6px; }
 .subtitle { margin: 0 0 12px; color: var(--accent); font-weight:600; }

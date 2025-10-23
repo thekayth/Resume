@@ -9,7 +9,7 @@
   document.getElementById("footer-name").textContent = data.basics.name || "ชื่อ-นามสกุล";
   document.getElementById("headline").textContent = data.basics.headline || "";
   document.getElementById("summary").textContent = data.basics.summary || "";
-  document.getElementById("avatar").src = data.basics.avatar || "assets/avatar.svg";
+  document.getElementById("avatar").src = data.basics.avatar || "assets/avatar.jpg";
   const btnDownload = document.getElementById("btn-download");
   if (data.basics.pdf && data.basics.pdf !== "#") {
     btnDownload.href = data.basics.pdf;
