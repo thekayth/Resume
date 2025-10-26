@@ -73,19 +73,19 @@ window.__RESUME_DATA__ = {
       title: "กิจกรรมการแข่งขันหุ่นยนต์ประจำปี 2567",
       desc: "เป็น Staff ในงานกิจกรรมการแข่งขันหุ่นยนต์ในมหาวิทยาลัยราชภัฎนครสวรรค์",
       linkText: "คลิกเพื่อดูรูป",
-      url: "https://media.discordapp.net/attachments/1209524338001317919/1430888788829278320/509428887_10236658516032924_2840851590701504062_n.jpg?ex=68fb6a87&is=68fa1907&hm=f49b49f40357f5f53624dd28778ea2e6277987f6a2b17fdb0f0560d3c0f65b63&=&format=webp&width=1291&height=968"
+      url: "https://cdn.discordapp.com/attachments/1200147041288999045/1431862169867260087/509428887_10236658516032924_2840851590701504062_n.jpg?ex=68fef510&is=68fda390&hm=ec14dcc5d9522e466fd0920f12e7776fdd184933959f64ec80c5555ef7535934&"
     },
     {
       title: "กิจกรรมนวัตกรรมการเกษตรด้วยเทคโนโลยีอัจฉริยะ 18-19 ม.ค. 2568",
       desc: "จัดกิจกรรมการอบรมฝึกใช้ Arduino เพื่อต่อยอดการเรียนรู้ในเชิงการเกษตร",
       linkText: "คลิกเพื่อดูรูป",
-      url: "https://media.discordapp.net/attachments/1209524338001317919/1430888801810518126/495575785_1287527550044630_7191758350104135131_n.jpg?ex=68fb6a8a&is=68fa190a&hm=415568348145a11a745364c64d0fd3bc09e40bb03dd03b89952c7a50844edf1a&=&format=webp&width=1291&height=968"
+      url: "https://cdn.discordapp.com/attachments/1200147041288999045/1431861424077934693/image.png?ex=68fef45e&is=68fda2de&hm=69006db3083063bd8a8a4220724310a8fcd4ce9887afad6d6fb175982f06a67a&"
     },
     {
       title: "กิจกรรมการจัดระบบเครือข่ายเพื่อแก้โจทย์ปัญหาการใช้งานองค์กร กุมภาพันธ์ 2568",
       desc: "เข้าร่วมกิจกรรมให้ความรู้เพื้อแก้ไขปัญหาต่างๆด้าน Network",
       linkText: "คลิกเพื่อดูรูป",
-      url: "https://media.discordapp.net/attachments/1209524338001317919/1430888812665372893/481239573_1217945377002848_3107769144171933462_n.jpg?ex=68fb6a8d&is=68fa190d&hm=34c88731eb090f7eaa67ad42d1d8e4be9bf774c6c9c5b1fd6205d1fc4687467e&=&format=webp&width=1535&height=864"
+      url: "https://cdn.discordapp.com/attachments/1200147041288999045/1431861455577419876/image.png?ex=68fef465&is=68fda2e5&hm=214563d8045afb236688c9d4651a30df30791084922fb0e5824ae5181b6a1024&"
     },
   ],
   certificates: [
